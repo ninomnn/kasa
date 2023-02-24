@@ -1,0 +1,15 @@
+main {
+  margin-inline: 100px;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  main {
+    margin-inline: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-inline: 20px;
+  }
+}

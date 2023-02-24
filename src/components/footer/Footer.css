@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  height: 209px;
+  padding-block: 66px 29px;
+  align-items: center;
+}
+
+footer img {
+  margin-bottom: 29px;
+}
+
+footer h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  footer h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer h2 {
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 30px;
+  }
+}
