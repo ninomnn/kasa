@@ -1,0 +1,131 @@
+.headingsHousing {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 24px;
+}
+
+.leftHeadingsHousing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titlesHousing {
+  color: #ff6060;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titlesHousing h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  margin-block: 0;
+}
+
+.titlesHousing p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  margin-block: 0px;
+}
+
+.tagsHousing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.rightHeadingsHousing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hostInfosHousing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.hostInfosHousing img {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin-left: 10px;
+}
+
+.hostInfosHousing p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  color: #ff6060;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  max-width: 100px;
+}
+
+.dropdownsHousing {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.oneDropdownHousing {
+  width: calc(50% - 38px);
+}
+
+.oneDropdownHousing .headerAccordion {
+  border-radius: 10px;
+  margin-bottom: -5px;
+}
+
+@media (max-width: 992px) {
+  .headingsHousing {
+    flex-direction: column;
+    margin-block: 16px;
+  }
+  .rightHeadingsHousing {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .titlesHousing {
+    margin-bottom: 12px;
+  }
+  .titlesHousing h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .titlesHousing p {
+    font-size: 14px;
+  }
+  .hostInfosHousing {
+    margin-bottom: 0;
+  }
+  .hostInfosHousing img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+  .hostInfosHousing p {
+    font-size: 12px;
+    max-width: 70px;
+  }
+  .dropdownsHousing {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .oneDropdownHousing {
+    width: 100%;
+  }
+  .oneDropdownHousing .headerAccordion {
+    border-radius: 5px;
+  }
+}

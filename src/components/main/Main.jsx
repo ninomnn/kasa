@@ -12,7 +12,7 @@ function Main() {
       <Routes>
         <Route exact path="/" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/housing" element={<Housing />} />
+        <Route path="/housing/:id" element={<Housing />} />
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<P404 />} />
       </Routes>
