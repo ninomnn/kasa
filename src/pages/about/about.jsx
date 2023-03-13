@@ -1,5 +1,5 @@
 import './About.css';
-import dataAbout from './../../datas/about.json';
+import dataAbout from './../../datas/about.json';//Ce sont les données qui font le contenu des accordéons
 import Accordion from '../../components/accordion/Accordion';
 
 function About() {

@@ -6,6 +6,8 @@ import P404 from '../../pages/P404/P404'
 
 import { Route, Routes, Navigate } from 'react-router-dom'
 
+/* Voici les différentes routes du routeur qui mènent aux différentes pages selon leurs url */
+
 function Main() {
   return (
     <main>
