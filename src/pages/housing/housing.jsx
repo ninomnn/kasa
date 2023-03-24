@@ -16,10 +16,10 @@ function Housing() {
   }
 
   const equipmentsContent = selectedHouse.equipments.map((equipment) => (
-    <txt key={equipment}>
+    <div key={equipment}>
       {equipment}
       <br />
-    </txt>
+    </div>
   ))
 
   return (

@@ -6,9 +6,7 @@ function P404() {
     <section className="P404">
       <div className="textP404">
         <h1>404</h1>
-        <p>
-          Oups ! La page que vous demandez n'existe pas.
-        </p>
+        <p>Oups ! La page que vous demandez n'existe pas.</p>
       </div>
       <Link to="/home" className="linkP404">
         Retourner sur la page d’accueil

@@ -1,6 +1,6 @@
-import './About.css';
-import dataAbout from './../../datas/about.json';//Ce sont les données qui font le contenu des accordéons
-import Accordion from '../../components/accordion/Accordion';
+import './About.css'
+import dataAbout from './../../datas/about.json' //Ce sont les données qui font le contenu des accordéons
+import Accordion from '../../components/accordion/Accordion'
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
         ))}
       </section>
     </>
-  );
+  )
 }
 
-export default About;
+export default About

@@ -13,7 +13,7 @@ function Header() {
         <ul>
           <li>
             <NavLink
-              activeClassName={'active'}
+              activeclasscname={'active'}
               className="linkHeader"
               to="/home"
             >
@@ -22,7 +22,7 @@ function Header() {
           </li>
           <li>
             <NavLink
-              activeClassName={'active'}
+              activeclassname={'active'}
               className="linkHeader"
               to="/about"
             >

@@ -21,16 +21,14 @@ function Accordion(props) {
           <img className="iconAccordion" src={uparrow} alt="Replier" />
         )}
       </div>
-      {!isCollapsed && (
-        <div className="contentAccordion">{props.content}</div>
-      )}
+      {!isCollapsed && <div className="contentAccordion">{props.content}</div>}
     </div>
   )
 }
 
 Accordion.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
+  content: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
 }
 
 export default Accordion
