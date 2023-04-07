@@ -25,6 +25,9 @@ const Carroussel = ({ images }) => {
           src={images[currentImage]}
           alt={`${currentImage + 1}`}
         />
+        <div className="imageCounter">
+          {currentImage + 1}/{images.length}
+        </div>
       </div>
       <div className="containerArrowCarroussel">
         <img
