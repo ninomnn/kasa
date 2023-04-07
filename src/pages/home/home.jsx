@@ -1,7 +1,7 @@
 import Card from '../../components/card/Card'
 import housingData from '../../datas/housing.json' //Ce sont les données du fichier JSON fournis
 import '../../assets/IMG.jpg'
-import './Home.css'
+import './home.css'
 
 function Home() {
   const cardList = housingData.map((card) => (

@@ -1,7 +1,7 @@
-import './Housing.css'
+import './housing.css'
 import { useParams } from 'react-router-dom'
 import housingData from '../../datas/housing.json' //Ce sont les données du fichier JSON fournis
-import P404 from '../P404/P404'
+import P404 from '../P404/p404'
 import Carroussel from '../../components/carroussel/Carroussel'
 import Accordion from '../../components/accordion/Accordion'
 import Tag from '../../components/tag/Tag'

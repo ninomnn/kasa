@@ -1,8 +1,8 @@
 import './Main.css'
-import Home from '../../pages/home/Home'
-import Housing from '../../pages/housing/Housing'
-import About from '../../pages/about/About'
-import P404 from '../../pages/P404/P404'
+import Home from '../../pages/home/home'
+import Housing from '../../pages/housing/housing'
+import About from '../../pages/about/about'
+import P404 from '../../pages/P404/p404'
 
 import { Route, Routes, Navigate } from 'react-router-dom'
 

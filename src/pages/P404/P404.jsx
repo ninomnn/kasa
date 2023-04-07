@@ -1,4 +1,4 @@
-import './P404.css'
+import './p404.css'
 import { Link } from 'react-router-dom'
 
 function P404() {
