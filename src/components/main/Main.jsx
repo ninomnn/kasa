@@ -12,12 +12,12 @@ function Main() {
   return (
     <main>
       <Routes>
-        <Route exact path="/" element={<Navigate replace to="/kasa/home" />} />
-        <Route exact path="/kasa/" element={<Navigate replace to="/kasa/home" />} />
-        <Route path="/kasa/home" element={<Home />} />
-        <Route path="/kasa/housing/:id" element={<Housing />} />
-        <Route path="/kasa/about" element={<About />} />
-        <Route path="/kasa/*" element={<P404 />} />
+        <Route exact path="/" element={<Navigate replace to="/home" />} />
+        <Route exact path="/kasa" element={<Navigate replace to="/home" />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/housing/:id" element={<Housing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/*" element={<P404 />} />
       </Routes>
     </main>
   )
